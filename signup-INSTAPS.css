@@ -1,0 +1,103 @@
+body{
+    padding: 25px;
+    
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  
+  @media (max-width:600px){
+    body{
+      position: relative;
+    }
+    .depan{
+      position: absolute;
+      z-index: 1;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    #logo{
+      margin: 20px;
+      height: 200px;
+      width: 200px;
+      overflow: hidden;
+      align-self: center;
+    }
+    #judul-login{
+      padding-bottom: 20px;
+    }
+  
+    .bagian-login{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-login{
+      background-color: #afc9ca;
+      padding: 20px 15px 20px 15px;
+      border-radius: 40px;
+      width: 100%;
+      
+    }
+    .inputan{
+      padding-bottom: 10px;
+    }
+    .inputan>input{
+      width: 95%;
+      height: 35px;
+      border: 0px;
+      border-radius: 16px;
+    }
+    .tombol-register{
+        padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #tombol-register{
+      align-items: center;
+      border-radius: 16px;
+      width: 100%;
+      padding: 10px 70px 10px 70px;
+      background-color: #0E824A;
+      color: white;
+    }
+    .opsi-lain{
+      text-align: center;
+      padding-top: 30px;
+    }
+    .logo-opsi{
+      width: 65px;
+      height: 65px;
+      border-radius: 60px;
+    }
+  
+    .belakang{
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      opacity: 50%;
+    }
+    #pungut{
+      position: absolute;
+      top: 400px;
+      width: 300px;
+      height: 300px;
+    }
+    #truk{
+      position: absolute;
+      height: 150px;
+      width: 200px;
+      top: 400px;
+      
+      transform: scaleX(-1);
+    }
+  }
